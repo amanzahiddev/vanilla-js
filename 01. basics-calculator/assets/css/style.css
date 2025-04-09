@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root{
+    /* Colors */
+    --white: #fff;
+    --sky-blue: #1CB5E0;
+    --rich-navy: #0D1B2A;
+    --cobalt-blue: #4B6CB7;
+    --charcol-navy: #182848;
+    --charcol-black: #222222;
+    --oxford-blue: #000851;
+    /* Fonts */
+    --primary: "Poppins", sans-serif;
+    
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(90deg, var(--cobalt-blue) 0%, var(--charcol-navy) 100%);
+    font-family: var(--primary);
+}
+main{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: stretch;
+}
+.calc-desc,
+.calc-wrapper{
+    height: 100%;
+    width: 50vw;
+}
+.calc-desc{
+    padding: 2rem 1rem;
+}
+
+.calc-desc h1{
+    margin-bottom: 0;
+    color: var(--white);
+    font-size: 3rem;
+}
+.calc-desc h2{
+    margin-top: 0;
+    font-size: 0.9rem;
+    color: var(--white);
+}
+.calc-desc p{
+    font-size: 1.2rem;
+    color: var(--charcol-black);
+}
